@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AhimLeTruma.master.cs" Inherits="Client.BagrutProject.AhimLeTruma_2._1.Pages.AhimLeTruma" %>
+
+<!DOCTYPE html>
+
+<html dir="rtl">
+<head runat="server">
+
+    <title>אחים לתרומה</title>
+    <link rel="icon" href="../Images/Icon_AhimLeTrume.PNG" type="image/x-icon"/>
+    <link href="../CSS/Master.css" rel="stylesheet" />
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+    <header>
+
+   
+      <h1 class="logo">
+          <a href="Home.aspx">
+            <img src="..\Images\Logo_AhimLeTrume.png"  width="141" height="100"/>
+            </a>
+      </h1>
+
+        <br />
+        <br />
+
+      <nav class="ToolBarStyle">
+        <ul>
+          <li>
+          <li><a href="Home.aspx">עמוד הבית</a></li>
+          <li><a href="Login.aspx">התחברות/הרשמה</a></li>
+          <li><a href="#">אודות</a></li>
+          <li><a href="#">צור קשר</a></li>
+        </ul>
+      </nav>
+    
+  </header>
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+﻿body {
+    margin: 0;
+    background: #f1f7ff;
+    font-family: 'almoni ml v5 aaa ultrabold';
+    
+}
+
+
+
+header {
+    background: #f1f7ff;
+    height: 125px;
+}
+
+    header::after {
+        content:'';
+        display: table;
+        clear: both;
+    }
+
+.logo {
+    float: Right;
+
+    padding: 0px;
+    
+}
+
+nav {
+    float: right;
+}
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-left: 80px;
+        padding-top: 0px;
+        position: relative;
+    }
+
+    nav a {
+        color: #3b4074;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+        font-size: 14px;
+    }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        nav a::before {
+            content: '';
+            display: block;
+            height: 5px;
+            background-color: #3b4074;
+            position: absolute;
+            top: 0;
+            width: 0%;
+            transition: all ease-in-out 200ms;
+        }
+
+        nav a:hover::before {
+            width: 100%;
+        }
